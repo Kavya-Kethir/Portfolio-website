@@ -1,0 +1,223 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #003366;
+      color: white;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      height: 100%;
+    }
+
+  
+    
+    /* Set gray background color and 100% height */
+    .set-bg {  
+    background: url(img/bg.jpg); 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    height: 100%; 
+    position: relative;
+    background-attachment: fixed;
+    background-position: center; 
+    
+    }
+    
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 757px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+
+    
+    
+    .img-responsive {
+    float: left;
+    padding: 4px 0px 0px 32px;
+    padding-top: 10px;
+
+    
+   }
+
+   .img-circle {
+    
+    height:300px; 
+    width:300px;
+    overflow: hidden;
+    display: block;
+    border-radius: 100px;
+
+}
+   
+#landing{
+ vertical-align: middle;
+ padding-top: 100px;
+
+}
+.linkedin img {
+    width: 25%;
+    height: 50px;
+
+}
+.twitter img {
+    width:25%;
+    height: 50px;
+}
+
+#info {
+  padding-top: 100px;
+  vertical-align: middle;
+}
+
+ .well {
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  background-color: transparent;
+  max-width: 100%
+ }
+
+
+
+ /* The side navigation menu */
+
+/* The navigation menu links */
+
+
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+    padding-top: 10px;   
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: orange;
+}
+
+.navbar-custom .navbar-nav {
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.navbar-custom .navbar-nav li a {
+  color: white;
+}
+.navbar-custom .navbar-nav li a:hover {
+  color: #18BC9C;
+  outline: none;
+}
+.navbar-custom .navbar-nav li a:focus {
+  color: white;
+}
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: #18BC9C;
+}
+
+.set-green {
+  background-color: #18BC9C;
+  color: white;
+  text-align: center;  
+}
+
+
+
+html, body{height:100%;}
+.full-size {
+    height:100%;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h3 {
+  color: #AD1A29;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.service-box .glyphicon {
+    font-size: 30px;
+    color: #4DA0C4;
+}
+
+#contact {
+    background: url(img/contact.jpg);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    }
+
+
+#Address {
+  font-weight: bold;
+}
+
+.skills 
+{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+
+.project-name {
+  font-weight: bold;
+  color: blue;
+  padding-top: 10px;
+}
+
+.tools {
+  color: orange;
+}
+
+.project {
+  height: 150px;
+  width: 500px;
+}
+
+#about {
+  background: white;
+}
+
+.login-text {
+   background: white;
+}

@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="Kavya Kethireddy Portfolio">
+  <meta name="keywords" content="Kavya Kethireddy, Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <div class="col-md-8 text-left">    
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>   
+      </button>  
+      </div> 
+    </div>
+
+    <div class="collapse navbar-collapse navbar-custom" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="page-scrol"><a href="#home">HOME</a></li>
+        <li class="page-scroll"><a href="#about">ABOUT</a></li>
+        <li class="page-scroll"><a href="#projects">PROJECTS</a></li>
+        <li class="page-scroll"><a href="#contact">CONTACT</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">
+  <div class="row content test set-bg">
+    <div class="col-md-2 sidenav">  
+      <div class="row"><a href="https://github.com/kavya-kethireddy?tab=repositories">Github Resources</a></div>
+      <div class="row"><a href="http://stackoverflow.com/users/3162710/kavya-k">StackOverflow Contributions</a></div>
+    </div>
+
+   <div id="data" class="col-md-8">
+            <div id="home" class="row set-green full-size">
+          
+                <img src="img/kavya.jpg" alt="profile_pic" class="img-responsive img-circle"/>
+              <div id="landing">
+                <h1 id="homeHeading"> Hello, I am Kavya Kethireddy</h1>
+              
+                <p>Graduate Student. Software Engineer. Graduate Assistant</p>
+                <div>
+                <a href="#about" class="page-scroll btn btn-default btn-xl sr-button"><h4>Know more!</h4></a>
+              </div>
+            
+           </div>
+           </div>
+           
+          
+           
+            <div id="about" class="row full-size">
+              <h2 class="text-center header"> About </h2> 
+              <div class="text-center" id="info">  
+                <div class=" col-md-4 text-center">
+                    <div class="service-box">     
+                        <p><span class="glyphicon glyphicon-star"></span></p>
+                        <h3>Skills</h3>
+                        <ul class="skills text-center">
+                          <li>Python, Java, C and C++</li>
+                          <li> Openstack, AWS </li>
+                          <li> Chef, Puppet </li>
+                          <li> Django Rest Framework, HTML, CSS</li>
+                          <li> MySQL, Apache Tomcat</li>
+                          <li> Git, SVN, Jenkins</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-box">
+                        <p><span class="glyphicon glyphicon-folder-open"></span></p>
+                        <h3>Work Experience</h3>
+                        <h4>(2016-Present)</h4>Graduate Assistant at University of Texas at Dallas
+                        <h4>(2013-2015)</h4>Software Engineer at Persistent Systems Limited
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-box">
+                        <p><span class="glyphicon glyphicon-pencil"></span></p>
+                        <h3>Education</h3>
+                        <h4>(2016-Present)</h4>Masters in Software Engineering at University of Texas at Dallas
+                        <h4>(2009-2013)</h4> Bachelors in Computer Science at JNTUH
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+           
+           <div id="projects" class="row set-green full-size text-center">
+            <h2> Projects </h2>
+            <div class="col-md-4 portfolio-item">
+              <img class="img-responsive project" src="img/project-6.jpg" alt="">
+                <h4 class="project-name">
+                  Database Engine<br>(June - July 2016)
+                </h4>
+                <p class="text-center">Implemented a rudimentary database engine that is loosely based on a hybrid between MySQL and SQLite. Commands Supported: Insert, Create, Update, Drop, Select (without joins) and Show. </p>
+                <h4 class="tools">Tools and Technologies</h4> 
+                  Java            
+                </div>
+
+            <div class="col-md-4 portfolio-item">
+                <img class="img-responsive project" src="img/project-5.jpg" alt="">
+                <h4 class="project-name">
+                  Library Management System<br>(May-June 2016)
+                </h4>
+                <p class="text-center">Implemented a database host application that interfaces with a backend SQL database implementing a DBMS for library circulation desk application. </p>
+                <h4 class="tools">Tools and Technologies</h4> 
+                  Java, Java Swings, and MySQL     
+                </div>
+
+            <div class="col-md-4 portfolio-item">
+                <img class="img-responsive project" src="img/project-4.jpg" alt="">
+                <h4 class="project-name">
+                  Software provisioning Module<br>(Jan-Mar 2015)
+                </h4>
+                <p class="text-center">Created Chef Recipes, Puppet Scripts for Softwares Supported on Linux, Windows. Gathered requirements and designed database. Implemented Python Modules, REST APIs
+To parse, validate and process various requests. Created Shell Scripts for Initial Environment and Database
+Setup. Implemented RabbitMq module that handles multiple requests. </p>
+                <p><h4 class="tools">Tools and Technologies</h4> 
+                  Python, Chef, Puppet, MySQL, and RabbitMq      
+            </div>
+        </div>
+
+        <!-- Projects Row -->
+        <div class="row set-green">
+            <div class="col-md-4 portfolio-item">
+                <img class="img-responsive" src="img/project-1.jpg" alt="">
+                <h4 class="project-name">
+                  Continuous Delivery Environment (Dec-July 2014)
+                </h4>
+                <p class="text-center"> Implemented python modules, Rest APIs, Cloud Formation and Heat templates to provision Virtual machines and install the software on-demand. Created chef recipes, puppet scripts to automate the installation and configuration of software based on user request.</p>
+                <h4 class="tools">Tools and Technologies</h4> AWS, OpenStack, Python, Django Rest Framework, Chef, Puppet, MySQL.
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <img class="img-responsive project" src="img/project-2.jpg" alt="">
+                <h4 class="project-name">
+                  Hybrid cloud Orchestrator<br>(Aug-Sep 2014)
+                </h4>
+                <p class="text-center"> Developed generic APIs to access both Amazon EC2, Cloud Formation and OpenStack Nova, Heat Service</p>
+                <h4 class="tools">Tools and Technologies</h4>OpenStack, AWS, Python
+            </div>
+
+            <div class="col-md-4 portfolio-item">
+               <img class="img-responsive project" src="img/project-3.jpg" alt="">
+                <h4 class="project-name">
+                  IBM Open Source Ecosystem<br>(Mar - Oct 2015)
+                </h4>
+                <p class="text-center"> Added Support to Various versions of Open Source Packages on IBM Z and Power Systems.  Automate the build and test process through Docker, create shell script and Jenkins job for the same. Research on errors faced with package source code and environments. </p>
+                <h4 class="tools">Tools and Technologies</h4> Docker, shell Scripting, Jenkins, GIT            
+            </div>
+       
+                
+            </div>
+        
+
+
+
+
+          <div id="contact" class="row full-size">
+               <h2 class="text-center header">Contact</h2>
+               <div class="col-md-6">
+
+               <form class="form-horizontal">
+                    <fieldset>
+                        
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-10 col-md-offset-1">
+                                <textarea class="form-control" id="message" name="message" placeholder="Please enter your here" rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+          </div> 
+          <div class="col-md-6">   
+                  <div class="panel panel-default">
+                    <div class="panel-body text-center">
+                        <div id="address">
+                        <p><span id="add" class="servicr-box glyphicon glyphicon-map-marker"></span></p>
+                        <h3 class="text-center header">Address</h3>
+                        7575 Frankford Rd<br />
+                        Apt #1026<br />
+                        (312)-813-8082<br />
+                        email: kethireddy2kavya@gmail.com<br />
+
+                    </div>
+                  </div>
+                </div>
+          </div>
+
+        </div>
+      </div>
+    
+
+
+
+    <div class="col-sm-2 sidenav">
+      <div class="well well-sm linkedin">
+        <a href="https://www.linkedin.com/in/kavya-kethireddy-7703199a">
+       <img src="img/linkedin.png" alt="linkedin"/>
+     </a>
+      </div>
+      <div class="well well-sm twitter">
+         <a href="https://twitter.com/kavya3192">
+       <img src="img/twitter.png" alt="twitter"/>
+     </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+ <p> Copyright &copy; Kavya Kethireddy Portfolio 2016 </p>
+</footer>
